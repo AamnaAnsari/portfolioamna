@@ -9,10 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        purple: "#800080",
+        lightGreen: "#90EE90",
       },
-    },
+      animation: {
+        fadeIn: 'fadeIn 1.5s ease-in-out',
+        slideUp: 'slideUp 1s ease-out',
+      },
   },
+},
   plugins: [],
 } satisfies Config;
